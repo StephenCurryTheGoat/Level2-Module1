@@ -17,8 +17,8 @@ ArrayList<String> list = new ArrayList<String>();
 		// TODO Auto-generated method stub
 		frame = new JFrame();
 		panel = new JPanel();
-		addName = new JButton();
-		viewNames = new JButton();
+		addName = new JButton("Add Name");
+		viewNames = new JButton("View your name");
 		frame.add(panel);
 		panel.add(addName);
 		panel.add(viewNames);
